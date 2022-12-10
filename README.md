@@ -24,7 +24,7 @@ This game was heavily inspired (if not completely) by a minigame in [MapleStory]
 Keyboard:
  - Arrow keys for movement
  - Space bar for grabbing/releasing stars
- - Alt/Option key for movement boost
+ - (Left) shift key for movement boost
  - Press 1/2/3 to adjust screen scaling
 
 ### Screenshots
@@ -44,6 +44,15 @@ Keyboard:
  - Color palette: [OIL 6 PALETTE](https://lospec.com/palette-list/oil-6)
  - Font: [Autriche Font](https://www.fontspace.com/autriche-font-f3285)
  - Sprite Editor: [Piskel](https://www.piskelapp.com/)
+
+
+### Tools
+
+For drawing the maps of the constellations used in the game, I quickly prototyped a map editor in [Wolfram Language](https://www.wolfram.com/language/):
+
+ ![StarBridgeDraw](screenshots/screenshot003.png "StarBridgeDraw")
+
+This is why you'll see that Mathematica is being used as part of this project (foind in [StarBridgeTools.nb](tools/StarBridgeTools.nb)).
 
 ### License
 
