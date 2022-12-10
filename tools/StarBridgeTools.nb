@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    102792,       3483]
-NotebookOptionsPosition[    100050,       3431]
-NotebookOutlinePosition[    100446,       3447]
-CellTagsIndexPosition[    100403,       3444]
+NotebookDataLength[    133759,       4625]
+NotebookOptionsPosition[    130554,       4565]
+NotebookOutlinePosition[    130950,       4581]
+CellTagsIndexPosition[    130907,       4578]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1117,11 +1117,220 @@ Cell[BoxData[{
         RowBox[{"6", ",", "1"}], "}"}], ",", 
        RowBox[{"{", 
         RowBox[{"9", ",", "4"}], "}"}], ",", "False"}], "}"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"galaxy9", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"9", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"7", ",", "0"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"10", ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"9", ",", "0"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"10", ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"8", ",", "4"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"8", ",", "4"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"10", ",", "6"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"10", ",", "6"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"10", ",", "8"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"7", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"5", ",", "2"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "1"}], "}"}], ",", "True"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"5", ",", "4"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", "4"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "6"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "6"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "1"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"3", ",", "6"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "6"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", "9"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "6"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", "9"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"7", ",", "13"}], "}"}], ",", "True"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"5", ",", "9"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "10"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "6"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"3", ",", "10"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"3", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "14"}], "}"}], ",", "False"}], "}"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"galaxy10", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "1"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "1"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "3"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "3"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "5"}], "}"}], ",", "True"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4", ",", "4"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"4", ",", "4"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "5"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"4", ",", "4"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"6", ",", "5"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"6", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "1"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"9", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"6", ",", "0"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"6", ",", "5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"8", ",", "7"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"8", ",", "7"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"10", ",", "10"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"8", ",", "13"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"10", ",", "10"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "7"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"3", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "7"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"3", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"6", ",", "5"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"3", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "11"}], "}"}], ",", "False"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0", ",", "11"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "7"}], "}"}], ",", "True"}], "}"}]}], "}"}]}], 
   ";"}]}], "Input",
  CellChangeTimes->{{3.879684529303302*^9, 3.879684531200816*^9}, {
-  3.8796847631728897`*^9, 3.879684774182926*^9}},
+  3.8796847631728897`*^9, 3.879684774182926*^9}, {3.879686335210498*^9, 
+  3.8796863371961184`*^9}, {3.8796864362404633`*^9, 3.879686438645945*^9}},
  CellLabel->
-  "In[399]:=",ExpressionUUID->"8a5a7342-0bcb-4150-989f-88ee34b4e407"],
+  "In[407]:=",ExpressionUUID->"8a5a7342-0bcb-4150-989f-88ee34b4e407"],
 
 Cell[CellGroupData[{
 
@@ -3425,6 +3634,931 @@ Cell[BoxData[
  CellChangeTimes->{3.879684525811308*^9, 3.8796847581034107`*^9},
  CellLabel->
   "Out[398]=",ExpressionUUID->"0709173d-c07c-434f-9854-1e70ba724149"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StarBridgeDraw", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.879257065030019*^9, 3.8792570684636097`*^9}, 
+   3.87925749935112*^9, {3.879259053689315*^9, 3.879259056049618*^9}, {
+   3.8793514358387623`*^9, 3.879351439322002*^9}, {3.879664025884714*^9, 
+   3.8796640271667967`*^9}, {3.879681721014845*^9, 3.8796817413186913`*^9}, {
+   3.879681956148324*^9, 3.879681957347603*^9}, {3.8796842925010347`*^9, 
+   3.8796842930335627`*^9}, {3.879684556625101*^9, 3.8796845574469137`*^9}, 
+   3.8796861853868313`*^9},
+ CellLabel->
+  "In[402]:=",ExpressionUUID->"f5ab3585-c204-44e6-9f51-e2a39065511d"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`data$$ = {{{9, 0}, {7, 0}, False}, {{10, 2}, {
+    9, 0}, False}, {{10, 2}, {8, 4}, False}, {{8, 4}, {10, 6}, False}, {{10, 
+    6}, {10, 8}, False}, {{7, 0}, {5, 2}, False}, {{5, 2}, {1, 1}, True}, {{5,
+     2}, {5, 4}, False}, {{5, 4}, {3, 6}, False}, {{0, 6}, {1, 1}, False}, {{
+    3, 6}, {0, 6}, False}, {{5, 9}, {3, 6}, False}, {{5, 9}, {7, 13}, 
+    True}, {{5, 9}, {3, 10}, False}, {{0, 6}, {3, 10}, False}, {{3, 10}, {0, 
+    14}, False}}, $CellContext`p1$$ = {3, 10}, $CellContext`p2$$ = {0, 
+  14}, $CellContext`mouseDraggedQ$$ = 
+  False, $CellContext`undoValues$$ = {{{8, 0}, {6, 0}, False}, {{9, 0}, {10, 
+    2}, False}, {{10, 3}, {9, 0}, False}, {{3, 6}, {5, 10}, 
+    False}}, $CellContext`stars$$ = {{
+    Tooltip[
+     Point[{0, 0}], {0, 14}], 
+    Tooltip[
+     Point[{0, 1}], {0, 13}], 
+    Tooltip[
+     Point[{0, 2}], {0, 12}], 
+    Tooltip[
+     Point[{0, 3}], {0, 11}], 
+    Tooltip[
+     Point[{0, 4}], {0, 10}], 
+    Tooltip[
+     Point[{0, 5}], {0, 9}], 
+    Tooltip[
+     Point[{0, 6}], {0, 8}], 
+    Tooltip[
+     Point[{0, 7}], {0, 7}], 
+    Tooltip[
+     Point[{0, 8}], {0, 6}], 
+    Tooltip[
+     Point[{0, 9}], {0, 5}], 
+    Tooltip[
+     Point[{0, 10}], {0, 4}], 
+    Tooltip[
+     Point[{0, 11}], {0, 3}], 
+    Tooltip[
+     Point[{0, 12}], {0, 2}], 
+    Tooltip[
+     Point[{0, 13}], {0, 1}], 
+    Tooltip[
+     Point[{0, 14}], {0, 0}]}, {
+    Tooltip[
+     Point[{1, 0}], {1, 14}], 
+    Tooltip[
+     Point[{1, 1}], {1, 13}], 
+    Tooltip[
+     Point[{1, 2}], {1, 12}], 
+    Tooltip[
+     Point[{1, 3}], {1, 11}], 
+    Tooltip[
+     Point[{1, 4}], {1, 10}], 
+    Tooltip[
+     Point[{1, 5}], {1, 9}], 
+    Tooltip[
+     Point[{1, 6}], {1, 8}], 
+    Tooltip[
+     Point[{1, 7}], {1, 7}], 
+    Tooltip[
+     Point[{1, 8}], {1, 6}], 
+    Tooltip[
+     Point[{1, 9}], {1, 5}], 
+    Tooltip[
+     Point[{1, 10}], {1, 4}], 
+    Tooltip[
+     Point[{1, 11}], {1, 3}], 
+    Tooltip[
+     Point[{1, 12}], {1, 2}], 
+    Tooltip[
+     Point[{1, 13}], {1, 1}], 
+    Tooltip[
+     Point[{1, 14}], {1, 0}]}, {
+    Tooltip[
+     Point[{2, 0}], {2, 14}], 
+    Tooltip[
+     Point[{2, 1}], {2, 13}], 
+    Tooltip[
+     Point[{2, 2}], {2, 12}], 
+    Tooltip[
+     Point[{2, 3}], {2, 11}], 
+    Tooltip[
+     Point[{2, 4}], {2, 10}], 
+    Tooltip[
+     Point[{2, 5}], {2, 9}], 
+    Tooltip[
+     Point[{2, 6}], {2, 8}], 
+    Tooltip[
+     Point[{2, 7}], {2, 7}], 
+    Tooltip[
+     Point[{2, 8}], {2, 6}], 
+    Tooltip[
+     Point[{2, 9}], {2, 5}], 
+    Tooltip[
+     Point[{2, 10}], {2, 4}], 
+    Tooltip[
+     Point[{2, 11}], {2, 3}], 
+    Tooltip[
+     Point[{2, 12}], {2, 2}], 
+    Tooltip[
+     Point[{2, 13}], {2, 1}], 
+    Tooltip[
+     Point[{2, 14}], {2, 0}]}, {
+    Tooltip[
+     Point[{3, 0}], {3, 14}], 
+    Tooltip[
+     Point[{3, 1}], {3, 13}], 
+    Tooltip[
+     Point[{3, 2}], {3, 12}], 
+    Tooltip[
+     Point[{3, 3}], {3, 11}], 
+    Tooltip[
+     Point[{3, 4}], {3, 10}], 
+    Tooltip[
+     Point[{3, 5}], {3, 9}], 
+    Tooltip[
+     Point[{3, 6}], {3, 8}], 
+    Tooltip[
+     Point[{3, 7}], {3, 7}], 
+    Tooltip[
+     Point[{3, 8}], {3, 6}], 
+    Tooltip[
+     Point[{3, 9}], {3, 5}], 
+    Tooltip[
+     Point[{3, 10}], {3, 4}], 
+    Tooltip[
+     Point[{3, 11}], {3, 3}], 
+    Tooltip[
+     Point[{3, 12}], {3, 2}], 
+    Tooltip[
+     Point[{3, 13}], {3, 1}], 
+    Tooltip[
+     Point[{3, 14}], {3, 0}]}, {
+    Tooltip[
+     Point[{4, 0}], {4, 14}], 
+    Tooltip[
+     Point[{4, 1}], {4, 13}], 
+    Tooltip[
+     Point[{4, 2}], {4, 12}], 
+    Tooltip[
+     Point[{4, 3}], {4, 11}], 
+    Tooltip[
+     Point[{4, 4}], {4, 10}], 
+    Tooltip[
+     Point[{4, 5}], {4, 9}], 
+    Tooltip[
+     Point[{4, 6}], {4, 8}], 
+    Tooltip[
+     Point[{4, 7}], {4, 7}], 
+    Tooltip[
+     Point[{4, 8}], {4, 6}], 
+    Tooltip[
+     Point[{4, 9}], {4, 5}], 
+    Tooltip[
+     Point[{4, 10}], {4, 4}], 
+    Tooltip[
+     Point[{4, 11}], {4, 3}], 
+    Tooltip[
+     Point[{4, 12}], {4, 2}], 
+    Tooltip[
+     Point[{4, 13}], {4, 1}], 
+    Tooltip[
+     Point[{4, 14}], {4, 0}]}, {
+    Tooltip[
+     Point[{5, 0}], {5, 14}], 
+    Tooltip[
+     Point[{5, 1}], {5, 13}], 
+    Tooltip[
+     Point[{5, 2}], {5, 12}], 
+    Tooltip[
+     Point[{5, 3}], {5, 11}], 
+    Tooltip[
+     Point[{5, 4}], {5, 10}], 
+    Tooltip[
+     Point[{5, 5}], {5, 9}], 
+    Tooltip[
+     Point[{5, 6}], {5, 8}], 
+    Tooltip[
+     Point[{5, 7}], {5, 7}], 
+    Tooltip[
+     Point[{5, 8}], {5, 6}], 
+    Tooltip[
+     Point[{5, 9}], {5, 5}], 
+    Tooltip[
+     Point[{5, 10}], {5, 4}], 
+    Tooltip[
+     Point[{5, 11}], {5, 3}], 
+    Tooltip[
+     Point[{5, 12}], {5, 2}], 
+    Tooltip[
+     Point[{5, 13}], {5, 1}], 
+    Tooltip[
+     Point[{5, 14}], {5, 0}]}, {
+    Tooltip[
+     Point[{6, 0}], {6, 14}], 
+    Tooltip[
+     Point[{6, 1}], {6, 13}], 
+    Tooltip[
+     Point[{6, 2}], {6, 12}], 
+    Tooltip[
+     Point[{6, 3}], {6, 11}], 
+    Tooltip[
+     Point[{6, 4}], {6, 10}], 
+    Tooltip[
+     Point[{6, 5}], {6, 9}], 
+    Tooltip[
+     Point[{6, 6}], {6, 8}], 
+    Tooltip[
+     Point[{6, 7}], {6, 7}], 
+    Tooltip[
+     Point[{6, 8}], {6, 6}], 
+    Tooltip[
+     Point[{6, 9}], {6, 5}], 
+    Tooltip[
+     Point[{6, 10}], {6, 4}], 
+    Tooltip[
+     Point[{6, 11}], {6, 3}], 
+    Tooltip[
+     Point[{6, 12}], {6, 2}], 
+    Tooltip[
+     Point[{6, 13}], {6, 1}], 
+    Tooltip[
+     Point[{6, 14}], {6, 0}]}, {
+    Tooltip[
+     Point[{7, 0}], {7, 14}], 
+    Tooltip[
+     Point[{7, 1}], {7, 13}], 
+    Tooltip[
+     Point[{7, 2}], {7, 12}], 
+    Tooltip[
+     Point[{7, 3}], {7, 11}], 
+    Tooltip[
+     Point[{7, 4}], {7, 10}], 
+    Tooltip[
+     Point[{7, 5}], {7, 9}], 
+    Tooltip[
+     Point[{7, 6}], {7, 8}], 
+    Tooltip[
+     Point[{7, 7}], {7, 7}], 
+    Tooltip[
+     Point[{7, 8}], {7, 6}], 
+    Tooltip[
+     Point[{7, 9}], {7, 5}], 
+    Tooltip[
+     Point[{7, 10}], {7, 4}], 
+    Tooltip[
+     Point[{7, 11}], {7, 3}], 
+    Tooltip[
+     Point[{7, 12}], {7, 2}], 
+    Tooltip[
+     Point[{7, 13}], {7, 1}], 
+    Tooltip[
+     Point[{7, 14}], {7, 0}]}, {
+    Tooltip[
+     Point[{8, 0}], {8, 14}], 
+    Tooltip[
+     Point[{8, 1}], {8, 13}], 
+    Tooltip[
+     Point[{8, 2}], {8, 12}], 
+    Tooltip[
+     Point[{8, 3}], {8, 11}], 
+    Tooltip[
+     Point[{8, 4}], {8, 10}], 
+    Tooltip[
+     Point[{8, 5}], {8, 9}], 
+    Tooltip[
+     Point[{8, 6}], {8, 8}], 
+    Tooltip[
+     Point[{8, 7}], {8, 7}], 
+    Tooltip[
+     Point[{8, 8}], {8, 6}], 
+    Tooltip[
+     Point[{8, 9}], {8, 5}], 
+    Tooltip[
+     Point[{8, 10}], {8, 4}], 
+    Tooltip[
+     Point[{8, 11}], {8, 3}], 
+    Tooltip[
+     Point[{8, 12}], {8, 2}], 
+    Tooltip[
+     Point[{8, 13}], {8, 1}], 
+    Tooltip[
+     Point[{8, 14}], {8, 0}]}, {
+    Tooltip[
+     Point[{9, 0}], {9, 14}], 
+    Tooltip[
+     Point[{9, 1}], {9, 13}], 
+    Tooltip[
+     Point[{9, 2}], {9, 12}], 
+    Tooltip[
+     Point[{9, 3}], {9, 11}], 
+    Tooltip[
+     Point[{9, 4}], {9, 10}], 
+    Tooltip[
+     Point[{9, 5}], {9, 9}], 
+    Tooltip[
+     Point[{9, 6}], {9, 8}], 
+    Tooltip[
+     Point[{9, 7}], {9, 7}], 
+    Tooltip[
+     Point[{9, 8}], {9, 6}], 
+    Tooltip[
+     Point[{9, 9}], {9, 5}], 
+    Tooltip[
+     Point[{9, 10}], {9, 4}], 
+    Tooltip[
+     Point[{9, 11}], {9, 3}], 
+    Tooltip[
+     Point[{9, 12}], {9, 2}], 
+    Tooltip[
+     Point[{9, 13}], {9, 1}], 
+    Tooltip[
+     Point[{9, 14}], {9, 0}]}, {
+    Tooltip[
+     Point[{10, 0}], {10, 14}], 
+    Tooltip[
+     Point[{10, 1}], {10, 13}], 
+    Tooltip[
+     Point[{10, 2}], {10, 12}], 
+    Tooltip[
+     Point[{10, 3}], {10, 11}], 
+    Tooltip[
+     Point[{10, 4}], {10, 10}], 
+    Tooltip[
+     Point[{10, 5}], {10, 9}], 
+    Tooltip[
+     Point[{10, 6}], {10, 8}], 
+    Tooltip[
+     Point[{10, 7}], {10, 7}], 
+    Tooltip[
+     Point[{10, 8}], {10, 6}], 
+    Tooltip[
+     Point[{10, 9}], {10, 5}], 
+    Tooltip[
+     Point[{10, 10}], {10, 4}], 
+    Tooltip[
+     Point[{10, 11}], {10, 3}], 
+    Tooltip[
+     Point[{10, 12}], {10, 2}], 
+    Tooltip[
+     Point[{10, 13}], {10, 1}], 
+    Tooltip[
+     Point[{10, 14}], {10, 0}]}}, $CellContext`nb$$}, 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"9", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"7", ",", "0"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"10", ",", "2"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"9", ",", "0"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"10", ",", "2"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"8", ",", "4"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"8", ",", "4"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"10", ",", "6"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"10", ",", "6"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"10", ",", "8"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"7", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"5", ",", "2"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"5", ",", "2"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "1"}], "}"}], ",", "True"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"5", ",", "2"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"5", ",", "4"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"5", ",", "4"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "6"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "6"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "1"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"3", ",", "6"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "6"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"5", ",", "9"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "6"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"5", ",", "9"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"7", ",", "13"}], "}"}], ",", "True"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"5", ",", "9"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "10"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "6"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "10"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"3", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "14"}], "}"}], ",", "False"}], "}"}]}], "}"}],
+  DynamicModuleValues:>{}]], "Output",
+ CellChangeTimes->{3.879686330727271*^9},
+ CellLabel->
+  "Out[402]=",ExpressionUUID->"127e0ccb-a02f-4bed-84f6-7354477d3ad6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StarBridgeDraw", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.879257065030019*^9, 3.8792570684636097`*^9}, 
+   3.87925749935112*^9, {3.879259053689315*^9, 3.879259056049618*^9}, {
+   3.8793514358387623`*^9, 3.879351439322002*^9}, {3.879664025884714*^9, 
+   3.8796640271667967`*^9}, {3.879681721014845*^9, 3.8796817413186913`*^9}, {
+   3.879681956148324*^9, 3.879681957347603*^9}, {3.8796842925010347`*^9, 
+   3.8796842930335627`*^9}, {3.879684556625101*^9, 3.8796845574469137`*^9}, 
+   3.8796861853868313`*^9, 3.879686340072638*^9},
+ CellLabel->
+  "In[406]:=",ExpressionUUID->"c0dbf44a-336b-4c65-98cb-65d004a7c09f"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`data$$ = {{{2, 1}, {0, 0}, False}, {{2, 1}, {
+    2, 3}, False}, {{2, 3}, {0, 3}, False}, {{2, 3}, {1, 5}, True}, {{2, 3}, {
+    4, 4}, False}, {{4, 4}, {1, 5}, False}, {{4, 4}, {6, 5}, False}, {{6, 
+    0}, {2, 1}, False}, {{9, 0}, {6, 0}, False}, {{6, 5}, {8, 7}, False}, {{8,
+     7}, {10, 10}, False}, {{8, 13}, {10, 10}, False}, {{1, 5}, {2, 7}, 
+    False}, {{3, 10}, {2, 7}, False}, {{3, 10}, {6, 5}, False}, {{3, 10}, {0, 
+    11}, False}, {{0, 11}, {2, 7}, True}}, $CellContext`p1$$ = {0, 
+  11}, $CellContext`p2$$ = {2, 7}, $CellContext`mouseDraggedQ$$ = 
+  False, $CellContext`undoValues$$ = {{{10, 10}, {8, 12}, 
+    False}}, $CellContext`stars$$ = {{
+    Tooltip[
+     Point[{0, 0}], {0, 14}], 
+    Tooltip[
+     Point[{0, 1}], {0, 13}], 
+    Tooltip[
+     Point[{0, 2}], {0, 12}], 
+    Tooltip[
+     Point[{0, 3}], {0, 11}], 
+    Tooltip[
+     Point[{0, 4}], {0, 10}], 
+    Tooltip[
+     Point[{0, 5}], {0, 9}], 
+    Tooltip[
+     Point[{0, 6}], {0, 8}], 
+    Tooltip[
+     Point[{0, 7}], {0, 7}], 
+    Tooltip[
+     Point[{0, 8}], {0, 6}], 
+    Tooltip[
+     Point[{0, 9}], {0, 5}], 
+    Tooltip[
+     Point[{0, 10}], {0, 4}], 
+    Tooltip[
+     Point[{0, 11}], {0, 3}], 
+    Tooltip[
+     Point[{0, 12}], {0, 2}], 
+    Tooltip[
+     Point[{0, 13}], {0, 1}], 
+    Tooltip[
+     Point[{0, 14}], {0, 0}]}, {
+    Tooltip[
+     Point[{1, 0}], {1, 14}], 
+    Tooltip[
+     Point[{1, 1}], {1, 13}], 
+    Tooltip[
+     Point[{1, 2}], {1, 12}], 
+    Tooltip[
+     Point[{1, 3}], {1, 11}], 
+    Tooltip[
+     Point[{1, 4}], {1, 10}], 
+    Tooltip[
+     Point[{1, 5}], {1, 9}], 
+    Tooltip[
+     Point[{1, 6}], {1, 8}], 
+    Tooltip[
+     Point[{1, 7}], {1, 7}], 
+    Tooltip[
+     Point[{1, 8}], {1, 6}], 
+    Tooltip[
+     Point[{1, 9}], {1, 5}], 
+    Tooltip[
+     Point[{1, 10}], {1, 4}], 
+    Tooltip[
+     Point[{1, 11}], {1, 3}], 
+    Tooltip[
+     Point[{1, 12}], {1, 2}], 
+    Tooltip[
+     Point[{1, 13}], {1, 1}], 
+    Tooltip[
+     Point[{1, 14}], {1, 0}]}, {
+    Tooltip[
+     Point[{2, 0}], {2, 14}], 
+    Tooltip[
+     Point[{2, 1}], {2, 13}], 
+    Tooltip[
+     Point[{2, 2}], {2, 12}], 
+    Tooltip[
+     Point[{2, 3}], {2, 11}], 
+    Tooltip[
+     Point[{2, 4}], {2, 10}], 
+    Tooltip[
+     Point[{2, 5}], {2, 9}], 
+    Tooltip[
+     Point[{2, 6}], {2, 8}], 
+    Tooltip[
+     Point[{2, 7}], {2, 7}], 
+    Tooltip[
+     Point[{2, 8}], {2, 6}], 
+    Tooltip[
+     Point[{2, 9}], {2, 5}], 
+    Tooltip[
+     Point[{2, 10}], {2, 4}], 
+    Tooltip[
+     Point[{2, 11}], {2, 3}], 
+    Tooltip[
+     Point[{2, 12}], {2, 2}], 
+    Tooltip[
+     Point[{2, 13}], {2, 1}], 
+    Tooltip[
+     Point[{2, 14}], {2, 0}]}, {
+    Tooltip[
+     Point[{3, 0}], {3, 14}], 
+    Tooltip[
+     Point[{3, 1}], {3, 13}], 
+    Tooltip[
+     Point[{3, 2}], {3, 12}], 
+    Tooltip[
+     Point[{3, 3}], {3, 11}], 
+    Tooltip[
+     Point[{3, 4}], {3, 10}], 
+    Tooltip[
+     Point[{3, 5}], {3, 9}], 
+    Tooltip[
+     Point[{3, 6}], {3, 8}], 
+    Tooltip[
+     Point[{3, 7}], {3, 7}], 
+    Tooltip[
+     Point[{3, 8}], {3, 6}], 
+    Tooltip[
+     Point[{3, 9}], {3, 5}], 
+    Tooltip[
+     Point[{3, 10}], {3, 4}], 
+    Tooltip[
+     Point[{3, 11}], {3, 3}], 
+    Tooltip[
+     Point[{3, 12}], {3, 2}], 
+    Tooltip[
+     Point[{3, 13}], {3, 1}], 
+    Tooltip[
+     Point[{3, 14}], {3, 0}]}, {
+    Tooltip[
+     Point[{4, 0}], {4, 14}], 
+    Tooltip[
+     Point[{4, 1}], {4, 13}], 
+    Tooltip[
+     Point[{4, 2}], {4, 12}], 
+    Tooltip[
+     Point[{4, 3}], {4, 11}], 
+    Tooltip[
+     Point[{4, 4}], {4, 10}], 
+    Tooltip[
+     Point[{4, 5}], {4, 9}], 
+    Tooltip[
+     Point[{4, 6}], {4, 8}], 
+    Tooltip[
+     Point[{4, 7}], {4, 7}], 
+    Tooltip[
+     Point[{4, 8}], {4, 6}], 
+    Tooltip[
+     Point[{4, 9}], {4, 5}], 
+    Tooltip[
+     Point[{4, 10}], {4, 4}], 
+    Tooltip[
+     Point[{4, 11}], {4, 3}], 
+    Tooltip[
+     Point[{4, 12}], {4, 2}], 
+    Tooltip[
+     Point[{4, 13}], {4, 1}], 
+    Tooltip[
+     Point[{4, 14}], {4, 0}]}, {
+    Tooltip[
+     Point[{5, 0}], {5, 14}], 
+    Tooltip[
+     Point[{5, 1}], {5, 13}], 
+    Tooltip[
+     Point[{5, 2}], {5, 12}], 
+    Tooltip[
+     Point[{5, 3}], {5, 11}], 
+    Tooltip[
+     Point[{5, 4}], {5, 10}], 
+    Tooltip[
+     Point[{5, 5}], {5, 9}], 
+    Tooltip[
+     Point[{5, 6}], {5, 8}], 
+    Tooltip[
+     Point[{5, 7}], {5, 7}], 
+    Tooltip[
+     Point[{5, 8}], {5, 6}], 
+    Tooltip[
+     Point[{5, 9}], {5, 5}], 
+    Tooltip[
+     Point[{5, 10}], {5, 4}], 
+    Tooltip[
+     Point[{5, 11}], {5, 3}], 
+    Tooltip[
+     Point[{5, 12}], {5, 2}], 
+    Tooltip[
+     Point[{5, 13}], {5, 1}], 
+    Tooltip[
+     Point[{5, 14}], {5, 0}]}, {
+    Tooltip[
+     Point[{6, 0}], {6, 14}], 
+    Tooltip[
+     Point[{6, 1}], {6, 13}], 
+    Tooltip[
+     Point[{6, 2}], {6, 12}], 
+    Tooltip[
+     Point[{6, 3}], {6, 11}], 
+    Tooltip[
+     Point[{6, 4}], {6, 10}], 
+    Tooltip[
+     Point[{6, 5}], {6, 9}], 
+    Tooltip[
+     Point[{6, 6}], {6, 8}], 
+    Tooltip[
+     Point[{6, 7}], {6, 7}], 
+    Tooltip[
+     Point[{6, 8}], {6, 6}], 
+    Tooltip[
+     Point[{6, 9}], {6, 5}], 
+    Tooltip[
+     Point[{6, 10}], {6, 4}], 
+    Tooltip[
+     Point[{6, 11}], {6, 3}], 
+    Tooltip[
+     Point[{6, 12}], {6, 2}], 
+    Tooltip[
+     Point[{6, 13}], {6, 1}], 
+    Tooltip[
+     Point[{6, 14}], {6, 0}]}, {
+    Tooltip[
+     Point[{7, 0}], {7, 14}], 
+    Tooltip[
+     Point[{7, 1}], {7, 13}], 
+    Tooltip[
+     Point[{7, 2}], {7, 12}], 
+    Tooltip[
+     Point[{7, 3}], {7, 11}], 
+    Tooltip[
+     Point[{7, 4}], {7, 10}], 
+    Tooltip[
+     Point[{7, 5}], {7, 9}], 
+    Tooltip[
+     Point[{7, 6}], {7, 8}], 
+    Tooltip[
+     Point[{7, 7}], {7, 7}], 
+    Tooltip[
+     Point[{7, 8}], {7, 6}], 
+    Tooltip[
+     Point[{7, 9}], {7, 5}], 
+    Tooltip[
+     Point[{7, 10}], {7, 4}], 
+    Tooltip[
+     Point[{7, 11}], {7, 3}], 
+    Tooltip[
+     Point[{7, 12}], {7, 2}], 
+    Tooltip[
+     Point[{7, 13}], {7, 1}], 
+    Tooltip[
+     Point[{7, 14}], {7, 0}]}, {
+    Tooltip[
+     Point[{8, 0}], {8, 14}], 
+    Tooltip[
+     Point[{8, 1}], {8, 13}], 
+    Tooltip[
+     Point[{8, 2}], {8, 12}], 
+    Tooltip[
+     Point[{8, 3}], {8, 11}], 
+    Tooltip[
+     Point[{8, 4}], {8, 10}], 
+    Tooltip[
+     Point[{8, 5}], {8, 9}], 
+    Tooltip[
+     Point[{8, 6}], {8, 8}], 
+    Tooltip[
+     Point[{8, 7}], {8, 7}], 
+    Tooltip[
+     Point[{8, 8}], {8, 6}], 
+    Tooltip[
+     Point[{8, 9}], {8, 5}], 
+    Tooltip[
+     Point[{8, 10}], {8, 4}], 
+    Tooltip[
+     Point[{8, 11}], {8, 3}], 
+    Tooltip[
+     Point[{8, 12}], {8, 2}], 
+    Tooltip[
+     Point[{8, 13}], {8, 1}], 
+    Tooltip[
+     Point[{8, 14}], {8, 0}]}, {
+    Tooltip[
+     Point[{9, 0}], {9, 14}], 
+    Tooltip[
+     Point[{9, 1}], {9, 13}], 
+    Tooltip[
+     Point[{9, 2}], {9, 12}], 
+    Tooltip[
+     Point[{9, 3}], {9, 11}], 
+    Tooltip[
+     Point[{9, 4}], {9, 10}], 
+    Tooltip[
+     Point[{9, 5}], {9, 9}], 
+    Tooltip[
+     Point[{9, 6}], {9, 8}], 
+    Tooltip[
+     Point[{9, 7}], {9, 7}], 
+    Tooltip[
+     Point[{9, 8}], {9, 6}], 
+    Tooltip[
+     Point[{9, 9}], {9, 5}], 
+    Tooltip[
+     Point[{9, 10}], {9, 4}], 
+    Tooltip[
+     Point[{9, 11}], {9, 3}], 
+    Tooltip[
+     Point[{9, 12}], {9, 2}], 
+    Tooltip[
+     Point[{9, 13}], {9, 1}], 
+    Tooltip[
+     Point[{9, 14}], {9, 0}]}, {
+    Tooltip[
+     Point[{10, 0}], {10, 14}], 
+    Tooltip[
+     Point[{10, 1}], {10, 13}], 
+    Tooltip[
+     Point[{10, 2}], {10, 12}], 
+    Tooltip[
+     Point[{10, 3}], {10, 11}], 
+    Tooltip[
+     Point[{10, 4}], {10, 10}], 
+    Tooltip[
+     Point[{10, 5}], {10, 9}], 
+    Tooltip[
+     Point[{10, 6}], {10, 8}], 
+    Tooltip[
+     Point[{10, 7}], {10, 7}], 
+    Tooltip[
+     Point[{10, 8}], {10, 6}], 
+    Tooltip[
+     Point[{10, 9}], {10, 5}], 
+    Tooltip[
+     Point[{10, 10}], {10, 4}], 
+    Tooltip[
+     Point[{10, 11}], {10, 3}], 
+    Tooltip[
+     Point[{10, 12}], {10, 2}], 
+    Tooltip[
+     Point[{10, 13}], {10, 1}], 
+    Tooltip[
+     Point[{10, 14}], {10, 0}]}}, $CellContext`nb$$}, 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"2", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"2", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "3"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"2", ",", "3"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "3"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"2", ",", "3"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "5"}], "}"}], ",", "True"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"2", ",", "3"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"4", ",", "4"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"4", ",", "4"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "5"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"4", ",", "4"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"6", ",", "5"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"6", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "1"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"9", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"6", ",", "0"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"6", ",", "5"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"8", ",", "7"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"8", ",", "7"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"10", ",", "10"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"8", ",", "13"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"10", ",", "10"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"1", ",", "5"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "7"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"3", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "7"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"3", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"6", ",", "5"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"3", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "11"}], "}"}], ",", "False"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "11"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "7"}], "}"}], ",", "True"}], "}"}]}], "}"}],
+  DynamicModuleValues:>{}]], "Output",
+ CellChangeTimes->{3.879686429648925*^9},
+ CellLabel->
+  "Out[406]=",ExpressionUUID->"fa3bbbdd-b6ea-4514-a7a8-c91478db9739"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -3461,27 +4595,35 @@ Cell[20791, 499, 3129, 98, 73, "Input",ExpressionUUID->"a1170f8e-4690-492c-9272-
 Cell[23923, 599, 3317, 104, 73, "Input",ExpressionUUID->"91311aec-d2f0-4c78-b62e-6c285cd18e9d"],
 Cell[27243, 705, 3326, 104, 73, "Input",ExpressionUUID->"0ebc54d8-7602-4be4-9484-56c5501e8452"],
 Cell[30572, 811, 3321, 104, 73, "Input",ExpressionUUID->"6b7bbdc6-dc3e-4f01-ac8d-4879c173902a"],
-Cell[33896, 917, 6552, 206, 136, "Input",ExpressionUUID->"8a5a7342-0bcb-4150-989f-88ee34b4e407"],
+Cell[33896, 917, 13183, 415, 262, "Input",ExpressionUUID->"8a5a7342-0bcb-4150-989f-88ee34b4e407"],
 Cell[CellGroupData[{
-Cell[40473, 1127, 295, 5, 30, "Input",ExpressionUUID->"572eb495-fb04-4002-a6a0-61b819e85a84"],
-Cell[40771, 1134, 12097, 458, 77, "Output",ExpressionUUID->"7c356dff-c065-456e-8fc5-f9c0aab7d1ed"]
+Cell[47104, 1336, 295, 5, 30, "Input",ExpressionUUID->"572eb495-fb04-4002-a6a0-61b819e85a84"],
+Cell[47402, 1343, 12097, 458, 77, "Output",ExpressionUUID->"7c356dff-c065-456e-8fc5-f9c0aab7d1ed"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[52905, 1597, 347, 6, 30, "Input",ExpressionUUID->"859dde2f-831b-4def-a2cc-2ec459a27662"],
-Cell[53255, 1605, 11004, 437, 77, "Output",ExpressionUUID->"2bbd310d-3024-46cd-8099-150559821be0"]
+Cell[59536, 1806, 347, 6, 30, "Input",ExpressionUUID->"859dde2f-831b-4def-a2cc-2ec459a27662"],
+Cell[59886, 1814, 11004, 437, 77, "Output",ExpressionUUID->"2bbd310d-3024-46cd-8099-150559821be0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[64296, 2047, 347, 6, 30, "Input",ExpressionUUID->"18dd6068-29f2-4b73-aa5f-2d8eca379cd2"],
-Cell[64646, 2055, 11335, 445, 77, "Output",ExpressionUUID->"09299b56-d1f4-4f1b-8e54-96a69c7bf0eb"]
+Cell[70927, 2256, 347, 6, 30, "Input",ExpressionUUID->"18dd6068-29f2-4b73-aa5f-2d8eca379cd2"],
+Cell[71277, 2264, 11335, 445, 77, "Output",ExpressionUUID->"09299b56-d1f4-4f1b-8e54-96a69c7bf0eb"]
 }, Open  ]],
-Cell[75996, 2503, 399, 7, 30, "Input",ExpressionUUID->"1800b26f-7652-4627-b993-80a294246922"],
+Cell[82627, 2712, 399, 7, 30, "Input",ExpressionUUID->"1800b26f-7652-4627-b993-80a294246922"],
 Cell[CellGroupData[{
-Cell[76420, 2514, 497, 8, 30, "Input",ExpressionUUID->"2aed960a-6105-4051-9d83-62e8b5bbcb98"],
-Cell[76920, 2524, 11145, 442, 77, "Output",ExpressionUUID->"332c2d7b-cf1c-48ec-ace5-4474daa90406"]
+Cell[83051, 2723, 497, 8, 30, "Input",ExpressionUUID->"2aed960a-6105-4051-9d83-62e8b5bbcb98"],
+Cell[83551, 2733, 11145, 442, 77, "Output",ExpressionUUID->"332c2d7b-cf1c-48ec-ace5-4474daa90406"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[88102, 2971, 588, 9, 30, "Input",ExpressionUUID->"bcb3b0b3-c5d0-4f43-8b5a-e51dd111166f"],
-Cell[88693, 2982, 11317, 444, 77, "Output",ExpressionUUID->"0709173d-c07c-434f-9854-1e70ba724149"]
+Cell[94733, 3180, 588, 9, 30, "Input",ExpressionUUID->"bcb3b0b3-c5d0-4f43-8b5a-e51dd111166f"],
+Cell[95324, 3191, 11317, 444, 77, "Output",ExpressionUUID->"0709173d-c07c-434f-9854-1e70ba724149"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[106678, 3640, 616, 10, 30, "Input",ExpressionUUID->"f5ab3585-c204-44e6-9f51-e2a39065511d"],
+Cell[107297, 3652, 11205, 443, 77, "Output",ExpressionUUID->"127e0ccb-a02f-4bed-84f6-7354477d3ad6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[118539, 4100, 638, 10, 30, "Input",ExpressionUUID->"c0dbf44a-336b-4c65-98cb-65d004a7c09f"],
+Cell[119180, 4112, 11334, 448, 77, "Output",ExpressionUUID->"fa3bbbdd-b6ea-4514-a7a8-c91478db9739"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
