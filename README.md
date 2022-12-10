@@ -25,6 +25,7 @@ Keyboard:
  - Arrow keys for movement
  - Space bar for grabbing/releasing stars
  - Alt/Option key for movement boost
+ - Press 1/2/3 to adjust screen scaling
 
 ### Screenshots
 
