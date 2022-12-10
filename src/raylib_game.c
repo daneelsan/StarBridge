@@ -325,6 +325,84 @@ static struct Constellation constellations[] =
                 { -1, -1, -1, -1, BRIDGE_DISABLED },
                 { -1, -1, -1, -1, BRIDGE_DISABLED }
             }
+        },
+        {
+            16,
+            2,
+            {
+                { 7, 1, 10, 1, BRIDGE_ON_DEFAULT },
+                { 10, 1, 10, 4, BRIDGE_OFF_DEFAULT },
+                { 9, 7, 10, 4, BRIDGE_OFF_DEFAULT },
+                { 7, 10, 9, 7, BRIDGE_OFF_DEFAULT },
+                { 6, 12, 7, 10, BRIDGE_OFF_DEFAULT },
+                { 6, 12, 10, 14, BRIDGE_OFF_DEFAULT },
+                { 2, 12, 6, 12, BRIDGE_OFF_DEFAULT },
+                { 0, 11, 2, 12, BRIDGE_OFF_DEFAULT },
+                { 7, 10, 5, 9, BRIDGE_OFF_DEFAULT },
+                { 0, 11, 5, 9, BRIDGE_ON_DEFAULT },
+                { 5, 9, 3, 7, BRIDGE_OFF_DEFAULT },
+                { 3, 7, 3, 5, BRIDGE_OFF_DEFAULT },
+                { 3, 5, 2, 3, BRIDGE_OFF_DEFAULT },
+                { 2, 3, 2, 1, BRIDGE_OFF_DEFAULT },
+                { 7, 1, 7, 3, BRIDGE_OFF_DEFAULT },
+                { 7, 3, 2, 1, BRIDGE_OFF_DEFAULT },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED }
+            }
+        },
+        {
+            16,
+            2,
+            {
+                { 0, 13, 2, 11, BRIDGE_OFF_DEFAULT },
+                { 2, 11, 2, 9, BRIDGE_OFF_DEFAULT },
+                { 2, 11, 5, 12, BRIDGE_ON_DEFAULT },
+                { 5, 12, 7, 13, BRIDGE_OFF_DEFAULT },
+                { 7, 13, 10, 12, BRIDGE_OFF_DEFAULT },
+                { 5, 12, 6, 9, BRIDGE_OFF_DEFAULT },
+                { 6, 9, 10, 12, BRIDGE_OFF_DEFAULT },
+                { 6, 9, 8, 7, BRIDGE_OFF_DEFAULT },
+                { 8, 7, 9, 5, BRIDGE_OFF_DEFAULT },
+                { 9, 5, 8, 2, BRIDGE_OFF_DEFAULT },
+                { 8, 2, 7, 0, BRIDGE_OFF_DEFAULT },
+                { 8, 7, 4, 5, BRIDGE_ON_DEFAULT },
+                { 4, 5, 7, 0, BRIDGE_OFF_DEFAULT },
+                { 4, 5, 3, 3, BRIDGE_OFF_DEFAULT },
+                { 3, 3, 1, 4, BRIDGE_OFF_DEFAULT },
+                { 1, 4, 0, 6, BRIDGE_OFF_DEFAULT },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED }
+            }
+        },
+        {
+            16,
+            3,
+            {
+                { 9, 0, 10, 2, BRIDGE_OFF_DEFAULT },
+                { 10, 2, 8, 2, BRIDGE_ON_DEFAULT },
+                { 6, 3, 8, 2, BRIDGE_ON_DEFAULT },
+                { 6, 3, 3, 2, BRIDGE_ON_DEFAULT },
+                { 3, 2, 3, 0, BRIDGE_OFF_DEFAULT },
+                { 6, 3, 5, 5, BRIDGE_OFF_DEFAULT },
+                { 5, 5, 8, 6, BRIDGE_OFF_DEFAULT },
+                { 8, 6, 10, 2, BRIDGE_OFF_DEFAULT },
+                { 9, 10, 8, 6, BRIDGE_OFF_DEFAULT },
+                { 5, 5, 5, 9, BRIDGE_OFF_DEFAULT },
+                { 5, 9, 2, 9, BRIDGE_OFF_DEFAULT },
+                { 2, 9, 2, 11, BRIDGE_OFF_DEFAULT },
+                { 2, 11, 2, 13, BRIDGE_OFF_DEFAULT },
+                { 2, 13, 4, 13, BRIDGE_OFF_DEFAULT },
+                { 4, 13, 6, 13, BRIDGE_OFF_DEFAULT },
+                { 6, 13, 9, 10, BRIDGE_OFF_DEFAULT },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED }
+            }
         }
     };
 
