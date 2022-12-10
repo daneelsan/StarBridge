@@ -17,6 +17,7 @@ This game was heavily inspired (if not completely) by a minigame in [MapleStory]
  - Custom sprites
  - 256x256 pixels
  - Fun!
+ - Pure C and Raylib (no external libraries)
 
 ### Controls
 
