@@ -1,67 +1,49 @@
------------------------------------
+## Starry Frog
 
-_DISCLAIMER:_
-
-Welcome to **raylib 9 years gamejam template**!
-
-This template provides a base structure to start developing a small raylib game in plain C for the raylib 9 years gamejam, considering the requested restrictions: 
-
- - Game must be 256x256 pixels screen size
- - Game must be compiled for web
- 
-NOTE: Several GitHub Actions workflows have been preconfigured to automatically build your game for Windows, Linux and WebAssembly on each commit. Those workflows automatically sync with latest version of raylib available to build.
-
-The repo is also pre-configured with a default `LICENSE` (zlib/libpng) and a `README.md` (this one) to be properly filled by users. Feel free to change the LICENSE as required.
-
-All the sections defined by `$(Data to Fill)` are expected to be edited and filled properly. It's recommended to delete this disclaimer message after editing this `README.md` file.
-
-This template has been created to be used with raylib (www.raylib.com) and it's licensed under an unmodified zlib/libpng license.
-
-_Copyright (c) 2022 Ramon Santamaria ([@raysan5](https://twitter.com/raysan5))_
-
------------------------------------
-
-## $(Game Title)
-
-![$(Game Title)](screenshots/screenshot000.png "$(Game Title)")
+![Starry Frog](screenshots/screenshot000.png "Starry Frog")
 
 ### Description
 
-$(Your Game Description)
+Help a frog connect the stars to create marvelous constellations!
+
+As the starry frog, your mission is to grab, move and connect stars to form constellations.
+However, not all stars will be able to form a bridge.
+Have a look at the minimap to pinpoint the locatation of valid star bridges in the constellation.
+
+This game was heavily inspired (if not completely) by a minigame in [MapleStory](https://maplestory.nexon.net/): [Star Bridge](https://maplestory.nexon.net/news/77917/v-237-ignition-cygnus-knights-redux-patch-notes/#Star).
 
 ### Features
 
- - $(Game Feature 01)
- - $(Game Feature 02)
- - $(Game Feature 03)
+ - Custom sprites
+ - 256x256 pixels
+ - Fun!
 
 ### Controls
 
 Keyboard:
- - $(Game Control 01)
- - $(Game Control 02)
- - $(Game Control 03)
+ - Arrow keys for movement
+ - Space bar for grabbing/releasing stars
+ - Alt/Option key for movement boost
 
 ### Screenshots
 
-_TODO: Show your game to the world, animated GIFs recommended!._
+![Starry Frog Gameplay](screenshots/giph000.gif "Starry Frog Gameplay")
 
 ### Developers
 
- - $(Developer 01) - $(Role/Tasks Developed)
- - $(Developer 02) - $(Role/Tasks Developed)
- - $(Developer 03) - $(Role/Tasks Developed)
+ - Daniel Sanchez - Programmer + Game Artist
 
 ### Links
 
- - YouTube Gameplay: $(YouTube Link)
- - itch.io Release: $(itch.io Game Page)
- - Steam Release: $(Steam Game Page)
+ - itch.io Release: https://daneelsan.itch.io/starryfrog
+
+### Resources
+
+ - Color palette: [OIL 6 PALETTE](https://lospec.com/palette-list/oil-6)
+ - Font: [Autriche Font](https://www.fontspace.com/autriche-font-f3285)
 
 ### License
 
 This game sources are licensed under an unmodified zlib/libpng license, which is an OSI-certified, BSD-like license that allows static linking with closed source software. Check [LICENSE](LICENSE) for further details.
 
-$(Additional Licenses)
-
-*Copyright (c) $(Year) $(User Name) ($(User Twitter/GitHub Name))*
+*Copyright (c) 2022 Daniel Sanchez (daneelsan)*
