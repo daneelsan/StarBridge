@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Notebooks
+*.nb
+
 # Object files
 *.o
 *.ko

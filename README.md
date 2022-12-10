@@ -50,9 +50,15 @@ Keyboard:
 
 For drawing the maps of the constellations used in the game, I quickly prototyped a map editor in [Wolfram Language](https://www.wolfram.com/language/):
 
- ![StarBridgeDraw](screenshots/screenshot003.png "StarBridgeDraw")
+ ![StarryFrogConstellationDraw](screenshots/screenshot003.png "StarryFrogConstellationDraw")
 
-This is why you'll see that Mathematica is being used as part of this project (foind in [StarBridgeTools.nb](tools/StarBridgeTools.nb)).
+This is why you'll see that Mathematica is being used as part of this project (found in [StarBridgeTools.nb](tools/StarryFrogTools.wl)).
+
+To use it, simply run the following snippet in a Wolfram Language notebook:
+```Mathematica
+Get["~/git/StarBridge/tools/StarryFrogTools.wl"];
+StarryFrogConstellationDraw[]
+```
 
 ### License
 
