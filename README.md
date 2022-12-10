@@ -43,6 +43,7 @@ Keyboard:
 
  - Color palette: [OIL 6 PALETTE](https://lospec.com/palette-list/oil-6)
  - Font: [Autriche Font](https://www.fontspace.com/autriche-font-f3285)
+ - Sprite Editor: [Piskel](https://www.piskelapp.com/)
 
 ### License
 

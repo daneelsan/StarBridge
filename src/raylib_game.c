@@ -403,6 +403,58 @@ static struct Constellation constellations[] =
                 { -1, -1, -1, -1, BRIDGE_DISABLED },
                 { -1, -1, -1, -1, BRIDGE_DISABLED }
             }
+        },
+        {
+            16,
+            2,
+            {
+                { 9, 14, 7, 14, BRIDGE_OFF_DEFAULT },
+                { 10, 12, 9, 14, BRIDGE_OFF_DEFAULT },
+                { 10, 12, 8, 10, BRIDGE_OFF_DEFAULT },
+                { 8, 10, 10, 8, BRIDGE_OFF_DEFAULT },
+                { 10, 8, 10, 6, BRIDGE_OFF_DEFAULT },
+                { 7, 14, 5, 12, BRIDGE_OFF_DEFAULT },
+                { 5, 12, 1, 13, BRIDGE_ON_DEFAULT },
+                { 5, 12, 5, 10, BRIDGE_OFF_DEFAULT },
+                { 5, 10, 3, 8, BRIDGE_OFF_DEFAULT },
+                { 0, 8, 1, 13, BRIDGE_OFF_DEFAULT },
+                { 3, 8, 0, 8, BRIDGE_OFF_DEFAULT },
+                { 5, 5, 3, 8, BRIDGE_OFF_DEFAULT },
+                { 5, 5, 7, 1, BRIDGE_ON_DEFAULT },
+                { 5, 5, 3, 4, BRIDGE_OFF_DEFAULT },
+                { 0, 8, 3, 4, BRIDGE_OFF_DEFAULT },
+                { 3, 4, 0, 0, BRIDGE_OFF_DEFAULT },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED }
+            }
+        },
+        {
+            17,
+            2,
+            {
+                { 2, 13, 0, 14, BRIDGE_OFF_DEFAULT },
+                { 2, 13, 2, 11, BRIDGE_OFF_DEFAULT },
+                { 2, 11, 0, 11, BRIDGE_OFF_DEFAULT },
+                { 2, 11, 1, 9, BRIDGE_ON_DEFAULT },
+                { 2, 11, 4, 10, BRIDGE_OFF_DEFAULT },
+                { 4, 10, 1, 9, BRIDGE_OFF_DEFAULT },
+                { 4, 10, 6, 9, BRIDGE_OFF_DEFAULT },
+                { 6, 14, 2, 13, BRIDGE_OFF_DEFAULT },
+                { 9, 14, 6, 14, BRIDGE_OFF_DEFAULT },
+                { 6, 9, 8, 7, BRIDGE_OFF_DEFAULT },
+                { 8, 7, 10, 4, BRIDGE_OFF_DEFAULT },
+                { 8, 1, 10, 4, BRIDGE_OFF_DEFAULT },
+                { 1, 9, 2, 7, BRIDGE_OFF_DEFAULT },
+                { 3, 4, 2, 7, BRIDGE_OFF_DEFAULT },
+                { 3, 4, 6, 9, BRIDGE_OFF_DEFAULT },
+                { 3, 4, 0, 3, BRIDGE_OFF_DEFAULT },
+                { 0, 3, 2, 7, BRIDGE_ON_DEFAULT },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED },
+                { -1, -1, -1, -1, BRIDGE_DISABLED }
+            }
         }
     };
 
@@ -559,7 +611,6 @@ void UpdateDrawFrame(void)
             if (gameState.clockSeconds >= 5.0f)
             {
                 gameState.clockSeconds = 0;
-                // TODO: make this random
                 gameState.stages[gameState.stageId].constellationId = GetRandomNewConstellationId(&gameState);
                 gameState.state = GAMESTATE_GAMEPLAY;
             }
@@ -771,7 +822,7 @@ void UpdateDrawFrame(void)
         }
 
         // Draw equivalent mouse position on the main render-texture
-        DrawCircleLines(GetMouseX()*screenScale, GetMouseY()*screenScale, 10, MAROON);
+        // DrawCircleLines(GetMouseX()*screenScale, GetMouseY()*screenScale, 10, MAROON);
 
         // TODO: Draw everything that requires to be drawn at this point:
         if (debugMode)
@@ -833,19 +884,21 @@ void ResetGameState(struct GameState *gameState)
 
 int GetRandomNewConstellationId(struct GameState *gameState)
 {
+    bool cond = false;
     int randId = -1;
-    while (true)
+    do
     {
         randId = GetRandomValue(0, numberOfConstellations - 1);
-        // TODO: Don't hardcode these values
-        if (
-            (randId != gameState->stages[0].constellationId) &&
-            (randId != gameState->stages[1].constellationId) &&
-            (randId != gameState->stages[2].constellationId))
+        cond = false;
+        for (int i = 0; i < GAMESTATE_STAGES_COUNT; i += 1)
         {
-            break;
+            if (randId == gameState->stages[i].constellationId)
+            {
+                cond = true;
+                break;
+            }
         }
-    }
+    } while (cond);
     if (debugMode)
     {
         LOG("RANDOM CONSTELLATION: %i\n", randId);
@@ -912,7 +965,7 @@ void UpdatePlayer(struct Player *player, float deltaTime)
                 player->isFacingRight = true;
             }
 
-            if (IsKeyDown(KEY_LEFT_ALT))
+            if (IsKeyDown(KEY_LEFT_SHIFT))
             {
                 player->speed += PLAYER_BOOST;
                 player->movementDurationSeconds = 0.0f;
