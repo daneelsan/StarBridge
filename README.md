@@ -62,6 +62,15 @@ Get["~/git/StarBridge/tools/StarryFrogTools.wl"];
 StarryFrogConstellationDraw[]
 ```
 
+### TODOs
+
+ - [ ] Add sound effects
+ - [ ] Add music
+ - [ ] Support touch controls for mobile users
+ - [ ] Default to 2x screen scale
+ - [ ] Add more constellations
+ - [ ] Adjust movement speed and movement boost values
+
 ### License
 
 This game sources are licensed under an unmodified zlib/libpng license, which is an OSI-certified, BSD-like license that allows static linking with closed source software. Check [LICENSE](LICENSE) for further details.
