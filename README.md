@@ -10,6 +10,8 @@ As the starry frog, your mission is to grab, move and connect stars to form cons
 However, not all stars will be able to form a bridge.
 Have a look at the minimap to pinpoint the locatation of valid star bridges in the constellation.
 
+Finish connecting constellations 3 times to see your score!
+
 This game was heavily inspired (if not completely) by a minigame in [MapleStory](https://maplestory.nexon.net/): [Star Bridge](https://maplestory.nexon.net/news/77917/v-237-ignition-cygnus-knights-redux-patch-notes/#Star).
 
 ### Features
