@@ -40,6 +40,7 @@ Keyboard:
 ### Links
 
  - itch.io Release: https://daneelsan.itch.io/starryfrog
+ - "raylib 9 YEARS gamejam" submission: https://itch.io/jam/raylib-9-years-gamejam/rate/1830034
 
 ### Resources
 
